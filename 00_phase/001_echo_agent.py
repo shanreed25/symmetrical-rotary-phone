@@ -130,7 +130,7 @@ if __name__ == "__main__":
 
     # world' back to me."1 tool call to echo, then end_turn with confirmation text. Iteration count: 2
     #==================================================================================================================
-    # msg = sys.argv[1] if len(sys.argv) > 1 else "Please echo 'hello world' back to me."
+    msg = sys.argv[1] if len(sys.argv) > 1 else "Please echo 'hello world' back to me."
 
 
     # Zero tool calls; immediate end_turn with "4" or similar. Iteration count: 1
@@ -140,7 +140,7 @@ if __name__ == "__main__":
 
     # Either 1 response with 2 parallel tool_use blocks, OR 2 sequential iterations. Both are valid; observe which the model chose and why.
     #==================================================================================================================
-    msg = sys.argv[1] if len(sys.argv) > 1 else "Echo 'first' and then echo 'second' separately."
+    # msg = sys.argv[1] if len(sys.argv) > 1 else "Echo 'first' and then echo 'second' separately."
 
     
     result = run_agent(msg)
