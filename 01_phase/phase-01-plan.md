@@ -1,8 +1,11 @@
 # CCA-F Phase 1 — Single-Agent Loop Mastery
 
-> **Purpose:** Take the P0 loop and make it do real work: multiple tools, multi-turn tool cycling, and the chain-vs-parallel distinction live in your own code.
+> **Purpose:** Take the [Phase 00 loop](./001_p00_echo_agent.py) and make it do real work: multiple tools, multi-turn tool cycling, and the chain-vs-parallel distinction live in your own code.
+
 > **Build flavor:** Generic (weather + calculator). Spine project (customer support) starts in P2.
+
 > **Duration target:** 5 to 7 days.
+
 > **Advancement gate:** build passes all 5 acceptance tests + P1 quiz at 85% (quiz drafted after you build).
 
 > Quiz and Mochi deck are intentionally NOT in this file. They'll be written after you build, so they can target the mistakes you actually make.
@@ -47,7 +50,7 @@ Your build has one test for each. Run them back to back and watch the iteration 
 
 ## Build spec: v1 two-tool agent
 
-You write this. Reuse your P0 loop **verbatim**, including both rails. Do not rewrite the loop; the point is to confirm the same control flow handles multiple tools and multiple iterations without changes.
+You write this. Reuse the [001_echo-agent] **verbatim**, including both rails. Do not rewrite the loop; the point is to confirm the same control flow handles multiple tools and multiple iterations without changes.
 
 ### Tools to implement
 
